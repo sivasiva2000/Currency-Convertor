@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERTERS</title>
+    <link rel="stylesheet" href="color.css">
+    
+</head>
+<body>
+    <div class="main">
+        <h1>CONVERTERS</h1>
+        <div class="content1"><br><br> 
+            <h1 class="top">KG => Grams</h1><br><br>
+            <input type="number" id="sami">
+            <h1 id="out"></h1>
+            <button id="siva" onclick="display()">CONVERT</button>
+            <br><br><br><br><br>
+            <a href="index.html" class="btn">HOME</a>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+    <script>
+        function display(){
+            let i= document.getElementById("sami").value*1000 ;
+            let j = document.getElementById("out");
+            j.innerHTML = i;
+        }
+    </script>
+</body>
+</html>
