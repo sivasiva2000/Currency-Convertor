@@ -74,7 +74,7 @@
     
 }
 
-@media screen and (max-width: 500px)
+@media only screen and (max-width: 414px)
 {
     .content {
         display: flex;
@@ -85,7 +85,7 @@
         background: linear-gradient(blue,rgb(3, 33, 58));
         /* height: ; */
 /*         width: 250px; */
-        margin: 0px;
+        margin: auto;
         border-radius: 20px;
     
 } 
