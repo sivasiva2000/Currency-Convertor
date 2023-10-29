@@ -15,7 +15,7 @@
     text-align: center;
     background: linear-gradient(blue,rgb(3, 33, 58));
     height: 410px;
-    width: 500px;
+/*     width: 500px; */
     margin: 50px 0px 0px 485px;
     border-radius: 20px;
 }
@@ -84,7 +84,7 @@
         text-align: center;
         background: linear-gradient(blue,rgb(3, 33, 58));
         /* height: ; */
-        width: 250px;
+/*         width: 250px; */
         margin: auto;
         border-radius: 20px;
     
