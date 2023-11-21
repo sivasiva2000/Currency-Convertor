@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .main {
     display: flex;
     flex-direction: column;
@@ -14,8 +17,6 @@
     padding-left: 10px;
     text-align: center;
     background: linear-gradient(blue,rgb(3, 33, 58));
-/*     height: 410px;
-    width: 500px; */
     margin: 50px 0px 0px 485px;
     border-radius: 20px;
 }
